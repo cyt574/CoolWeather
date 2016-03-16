@@ -1,4 +1,4 @@
-package model;
+package com.coolweather.app.model;
 
 public class City {
 	 private int id;
@@ -6,7 +6,7 @@ public class City {
 	 private String cityCode;
 	 private int provinceId;
 	 
-	 public int getdId(){
+	 public int getId(){
 		 return id;
 	 }
 	 
