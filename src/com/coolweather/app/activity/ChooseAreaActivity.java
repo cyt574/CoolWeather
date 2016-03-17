@@ -86,7 +86,7 @@ public class ChooseAreaActivity extends Activity {
     	setContentView(R.layout.choose_area);
     	listView = (ListView) findViewById(R.id.list_view);
     	titleText = (TextView) findViewById(R.id.title_text);
-    	adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, dataList);
+    	adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dataList);
     	listView.setAdapter(adapter);
     	coolWeatherDB = CoolWeatherDB.getInstance(this);
     	listView.setOnItemClickListener(new OnItemClickListener() {

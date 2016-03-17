@@ -67,7 +67,7 @@ public class Utility {
 					String[] array = c.split("\\|");
 					County county = new County();
 					county.setCountyCode(array[0]);
-					county.setCountyName(array[0]);
+					county.setCountyName(array[1]);
 					county.setCityId(cityId);
 					coolWeatherDB.saveCounty(county);
 				}
